@@ -382,10 +382,13 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.2.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.2.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.2.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/CameraFollow.cs"
-"Assets/Scripts/CharacterAnimations.cs"
 "Assets/Scripts/Collectible.cs"
-"Assets/Scripts/Rotator.cs"
+"Assets/Scripts/CollectibleData.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/ObstacleData.cs"
+"Assets/Scripts/ObstacleMovement.cs"
+"Assets/Scripts/ObstacleSpawner.cs"
+"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

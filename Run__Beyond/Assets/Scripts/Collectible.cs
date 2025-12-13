@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    public CollectibleData data; 
+
+    
+    void Update()
     {
-        if (other.CompareTag("Player"))
-        {
-            Destroy(gameObject);
-        }
+        transform.Rotate(Vector3.up, 100f * Time.deltaTime);
     }
 }
